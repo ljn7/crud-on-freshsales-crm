@@ -25,7 +25,7 @@ app.get("/contacts/findById", getContactById);
 app.put("/contacts/updateById", updateContactById);
 
 // Delete a contact by ID
-app.delete("/contacts/delete:id", deleteContactById);
+app.delete("/contacts/delete", deleteContactById);
 
 // Start the server
 app.listen(PORT, () => {
